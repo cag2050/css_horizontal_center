@@ -9,8 +9,13 @@ export default new Router({
     routes: [
         {
             path: '/margin0auto',
-            name: 'HelloWorld',
+            name: '',
             component: resolve => require(['../views/Margin0Auto'], resolve)
+        },
+        {
+            path: '/base',
+            name: '',
+            component: resolve => require(['../views/BaseDemo'], resolve)
         },
         {
             path: '/',

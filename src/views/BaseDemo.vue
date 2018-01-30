@@ -1,5 +1,5 @@
 <template lang='pug'>
-#margin
+#base
     .outer
         .inner 111
 </template>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style lang='stylus'>
-#margin
+#base
     .outer
         background-color yellow
         width 600px
@@ -25,6 +25,4 @@ export default {
             width 400px
             height 200px
             background-color #ccc
-            // 关键代码：只能进行水平的居中，且对浮动元素(float)或绝对定位元素(position:absolute)无效
-            margin 0 auto
 </style>
