@@ -19,6 +19,26 @@ const routes = [
         component: () =>
             import(/* webpackChunkName: "about" */ "../views/About.vue"),
     },
+    {
+        path: "/Base",
+        component: () =>
+            import("../views/Base.vue"),
+    },
+    {
+        path: "/Margin0Auto",
+        component: () =>
+            import("../views/Margin0Auto.vue"),
+    },
+    {
+        path: "/Flex",
+        component: () =>
+            import("../views/Flex.vue"),
+    },
+    {
+        path: "/TextAlignCenter",
+        component: () =>
+            import("../views/TextAlignCenter.vue"),
+    },
 ];
 
 const router = new VueRouter({
