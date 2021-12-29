@@ -39,6 +39,11 @@ const routes = [
         component: () =>
             import("../views/TextAlignCenter.vue"),
     },
+    {
+        path: "/PositionAbsolute",
+        component: () =>
+            import("../views/PositionAbsolute.vue"),
+    },
 ];
 
 const router = new VueRouter({

@@ -1,6 +1,6 @@
 <template>
     <div class="outer">
-        <div class="inner"></div>
+        <div class="inner">灰色区域，居中了！</div>
     </div>
 </template>
 

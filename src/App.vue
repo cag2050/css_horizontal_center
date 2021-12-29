@@ -7,14 +7,16 @@
             |
             <router-link to="/Base">Base</router-link>
             |
+            <router-link to="/TextAlignCenter">text-align: center;</router-link>
+            |
             <router-link to="/Margin0Auto">margin: 0 auto;</router-link>
             |
             <router-link to="/Flex">justify-content: center;</router-link>
             |
-            <router-link to="/TextAlignCenter">text-align: center;</router-link>
+            <router-link to="/PositionAbsolute">position: absolute;</router-link>
             |
         </div>
-        <div>----下面是内容-----</div>
+        <div>---下面是内容---</div>
         <router-view></router-view>
     </div>
 </template>

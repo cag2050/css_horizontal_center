@@ -1,6 +1,6 @@
 <template>
     <div class="outer">
-        <div class="inner"></div>
+        <div class="inner">灰色区域，默认居左</div>
     </div>
 </template>
 
@@ -8,5 +8,4 @@
 export default {}
 </script>
 
-<style lang="less" scoped>
-</style>
+<style lang="less" scoped></style>

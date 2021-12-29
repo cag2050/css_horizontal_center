@@ -10,9 +10,11 @@ export default {}
 
 <style lang="less" scoped>
 .outer {
+    position: relative;
     .inner {
-        // 关键代码：只能进行水平的居中，且对浮动元素(float)或绝对定位元素(position:absolute)无效
-        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 </style>
